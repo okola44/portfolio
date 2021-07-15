@@ -1,16 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 *{
     margin: 0%;
 }
 
-body { 
-    padding-top: 70px; 
-    /* margin:0; */
-}
+ /* body { 
+    padding-top: 70px;  
+     margin:0; 
+}  */
 
 .nav{
     height: 70px;
     text-align: right;
-    position: fixed;
+    /* position: fixed; */
     top: 0%;
     width: 100%;
     background-color: #14D1DD;
@@ -56,5 +61,38 @@ body {
   }
   #span{
       font-weight: 900;
+}
+#section1{
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+
+}
+#section2{
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+    background-color: #14D1DD;
+    
+}
+#section3{
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+  
+    
+}
+.about{
+    text-align: center;
+    margin-top: 30px;
+}
+.myprojects{
+    text-align: center;
+    margin-top: 30px;  
+}
+@media screen and (max-width: 480px) {
+    .text {
+      font-size: 16px;
+    }
   }
 
